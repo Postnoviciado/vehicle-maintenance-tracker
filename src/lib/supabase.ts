@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Database } from './database.types';
 
-const supabaseUrl = 'https://rtoebzgsmpfyrbnxbahr.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ0b2ViemdzbXBmeXJibnhiYWhyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDczNTk3MzksImV4cCI6MjA2MjkzNTczOX0.5LHD09_3DSXjnxJGmoV4ceyWHdCemR2JRrxtxAIVZlU';
+const supabaseUrl = 'https://dtyyzfmjjbuenhbjjnru.supabase.co';
+const supabaseAnonKey = 'sb_publishable_MA_Oj369gLmxn0ugb06yfA__EwDpTvm';
 
 if (!supabaseUrl || !supabaseAnonKey) {
   throw new Error('Supabase credentials are missing.');
